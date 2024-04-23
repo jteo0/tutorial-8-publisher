@@ -6,3 +6,7 @@ Ini berarti bahwa program subscriber dan publisher berhubungan (connect) dengan 
 
 Screenshot RabbitMQ:
 ![Screenshot RabbitMQ](img/RabbitMQ_1.png)
+
+Screenshot console subscriber:
+![Screenshot console subscriber](img/img_2.png)
+Setiap kali cargo run dijalankan pada publisher, dimunculkan 5 message pada terminal subscriber. .
