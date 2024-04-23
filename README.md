@@ -9,4 +9,8 @@ Screenshot RabbitMQ:
 
 Screenshot console subscriber:
 ![Screenshot console subscriber](img/img_2.png)
-Setiap kali cargo run dijalankan pada publisher, dimunculkan 5 message pada terminal subscriber. .
+Setiap kali cargo run dijalankan pada publisher, dimunculkan 5 message pada terminal subscriber.
+
+Screenshot 'Monitoring chart based on publisher':
+![Monitoring chart based on publisher](img/img_3.png)
+Grafik yang menunjukkan spike merupakan grafik yang menunjukan <i>message rate</i> selama semenit. Setiap spike muncul karena saya menulis cargo run secara manual, sehingga aktivitas mengesend message tidak konsisten, maka muncul <i>spikes in activity</i> setiap kali saya menjalankan cargo run di publisher.
